@@ -1,0 +1,19 @@
+translation-api/
+│
+├── app/
+│   ├── __init__.py        #
+│   ├── main.py            # File khởi động FastAPI
+│   ├── config.py          # Cấu hình cho API
+│   ├── models.py          # Xử lý mô hình dịch thuật va phu de
+│   ├── routes.py          # Định nghĩa các route API
+│   └── utils.py           # Các hàm tiện ích được sử dụng trong ứng dụng
+│
+├── .env                   # File chứa các biến môi trường
+├── .gitignore             # Các file và thư mục bị bỏ qua bởi Git
+├── README.md              # Tài liệu dự án
+├── requirements.txt       # Các thư viện cần thiết
+├── run.py                 # Chạy API
+├── test/
+│   ├── test_main.py       # Kiểm thử cho main.py
+│   └── __init__.py        # Khởi tạo thư mục kiểm thử
+
